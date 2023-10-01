@@ -1,0 +1,100 @@
+@media screen and (max-width: 739px) {
+    .header-icon{
+        display: none;
+    }
+    .header-name{
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: black;
+        width: 100%;
+        position: relative;
+    }
+    .header{
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .header-icon-bar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 20px;
+    }
+    .header-icon-bar:hover{
+        background-color: #009688;
+        color: black;
+    }
+    .box-icon:hover{
+        background-color: #009688;
+    }
+    .box-icon:hover .header-icon-bar{
+        color: black;
+    }
+    .header-name-link-width{
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .member{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tour{
+        width: 100%;
+    }
+    .body-tour{
+        width: 100%;
+    }
+    .tour-cities{
+        flex-direction: column;
+    }
+    .city{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .tour-months{
+        margin: 0 20px 20px 20px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact-body{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 20px;
+    }
+    .input-name-email{
+        flex-direction: column;
+    }
+    .name{
+        margin: 0;
+    }
+    .Message{
+        margin: 0;
+    }
+    .send-btn{
+        margin-right: 20px;
+    }
+    .navlv2{
+        top: -140%;
+        right: 0%;
+    }
+    .header-icon-bar{
+        display: inline-block;
+    }
+    .body-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal{
+        width: 100%;
+
+    }
+    .modal-detail{
+        width: 95%;
+    }
+}
